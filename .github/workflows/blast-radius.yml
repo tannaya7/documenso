@@ -1,0 +1,21 @@
+name: Blast Radius PR Resilience Gate
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Blast Radius PR Resilience Gate
+        uses: tannaya7/Domino/action@pr-resilience-gate
+        with:
+          api-url: https://few-cooks-sit.loca.lt
+          policy-file: .blast-radius.json
