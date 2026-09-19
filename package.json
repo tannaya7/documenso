@@ -104,6 +104,7 @@
     "zod-prisma-types": "3.3.5"
   },
   "dependencies": {
+    "mixpanel": "^0.18.0",
     "@ai-sdk/google-vertex": "5.0.48",
     "@documenso/prisma": "*",
     "@libpdf/core": "^0.4.2",
