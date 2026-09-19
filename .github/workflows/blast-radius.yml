@@ -17,5 +17,5 @@ jobs:
       - name: Blast Radius PR Resilience Gate
         uses: tannaya7/Domino/action@pr-resilience-gate
         with:
-          api-url: https://removing-english-centuries-indianapolis.trycloudflare.com
+          api-url: https://kyle-antique-instruction-republic.trycloudflare.com
           policy-file: .blast-radius.json
