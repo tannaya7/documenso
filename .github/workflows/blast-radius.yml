@@ -17,5 +17,5 @@ jobs:
       - name: Blast Radius PR Resilience Gate
         uses: tannaya7/Domino/action@pr-resilience-gate
         with:
-          api-url: https://clever-emus-cheat.loca.lt
+          api-url: https://every-hats-raise.loca.lt
           policy-file: .blast-radius.json
