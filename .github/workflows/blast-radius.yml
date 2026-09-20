@@ -17,5 +17,5 @@ jobs:
       - name: Blast Radius PR Resilience Gate
         uses: tannaya7/Domino/action@pr-resilience-gate
         with:
-          api-url: https://run-installed-uncle-cities.trycloudflare.com
+          api-url: Binary file /tmp/cloudflared.log matches
           policy-file: .blast-radius.json
